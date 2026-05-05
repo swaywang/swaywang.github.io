@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <circle cx="120" cy="118" r="6" fill="#4f46e5"/>
+  <text x="140" y="125" font-family="Inter" font-size="14" font-weight="600" letter-spacing="2.8" fill="#0f172a">
+    ENGINEER TURNED INVESTOR
+  </text>
+
+  <text x="120" y="270" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="92" fill="#0f172a">
+    Investing as an
+  </text>
+  <text x="120" y="380" font-family="Playfair Display" font-style="italic" font-weight="600" font-size="92" fill="url(#accent)">
+    Engineering Problem.
+  </text>
+
+  <text x="120" y="460" font-family="Inter" font-size="30" font-weight="500" fill="#475569" letter-spacing="0.3">
+    Quantmental Global Macro &#8212; systematic quant, macro conviction.
+  </text>
+
+  <line x1="120" y1="520" x2="180" y2="520" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="120" y="560" font-family="Inter" font-size="20" font-weight="600" fill="#0f172a">
+    Kuan Hsun Wang
+  </text>
+  <text x="120" y="588" font-family="Inter" font-size="16" font-weight="400" fill="#94a3b8">
+    Founder &amp; CIO &#183; Miyama Capital
+  </text>
+
+  <text x="1080" y="588" font-family="Inter" font-size="14" font-weight="500" fill="#94a3b8" text-anchor="end" letter-spacing="1">
+    khwang.net
+  </text>
+</svg>
