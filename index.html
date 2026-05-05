@@ -4,16 +4,20 @@
   <meta charset="UTF-8" />
   <title>Kuan Hsun Wang | Engineer & Investor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Kuan Hsun Wang: Founder & CIO of Miyama Capital. Ex-Staff Engineer at Synopsys. Building fault-tolerant investment portfolios with an engineering mindset." />
-  
-  <link rel="canonical" href="https://khwang.net" />
+  <meta name="description" content="Kuan Hsun Wang: Founder & CIO of Miyama Capital. Engineer turned investor, applying fault-tolerant systems thinking to global macro allocation across US, Japan, and Taiwan markets since 2010." />
+
+  <link rel="canonical" href="https://khwang.net/" />
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Kuan Hsun Wang | Engineer & Investor" />
   <meta property="og:description" content="Founder & CIO of Miyama Capital. Investing as an engineering problem." />
-  <meta property="og:url" content="https://khwang.net" />
-  
+  <meta property="og:url" content="https://khwang.net/" />
   <meta property="og:image" content="https://khwang.net/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kuan Hsun Wang | Engineer & Investor" />
+  <meta name="twitter:description" content="Founder & CIO of Miyama Capital. Investing as an engineering problem." />
+  <meta name="twitter:image" content="https://khwang.net/og-image.png" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,600&display=swap" rel="stylesheet" />
@@ -40,13 +44,14 @@
 
 <body class="bg-white text-tech-body font-sans antialiased selection:bg-tech-accent selection:text-white">
 
+  <!-- ============ NAV ============ -->
   <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
     <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
       <div class="font-bold text-tech-dark tracking-tight">KUAN HSUN WANG</div>
       <div class="flex items-center gap-6 text-sm font-medium">
         <a href="#about" class="hover:text-tech-accent transition">About</a>
         <a href="#experience" class="hover:text-tech-accent transition">Experience</a>
-        <a href="https://www.miyamacap.com" target="_blank" class="hidden sm:inline-flex items-center gap-1 text-slate-400 hover:text-tech-dark transition">
+        <a href="https://www.miyamacap.com" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-1 text-slate-400 hover:text-tech-dark transition">
           Miyama Capital
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
         </a>
@@ -54,6 +59,7 @@
     </div>
   </nav>
 
+  <!-- ============ HERO ============ -->
   <header class="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6">
     <div class="mx-auto max-w-4xl text-center">
       <div class="inline-flex items-center gap-2 rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-tech-dark mb-8">
@@ -64,20 +70,26 @@
         ENGINEER TURNED INVESTOR
       </div>
 
-      <h1 class="text-5xl md:text-7xl font-bold text-tech-dark tracking-tight mb-8">
+      <h1 class="text-5xl md:text-7xl font-bold text-tech-dark tracking-tight mb-6">
         Investing as an <br class="hidden md:block" />
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-tech-accent to-purple-600">Engineering Problem.</span>
       </h1>
 
+      <!-- L1 Tagline (D10 lock-in line) -->
+      <p class="text-base md:text-lg font-medium text-slate-500 tracking-wide mb-10">
+        Quantmental Global Macro &mdash; systematic quant, macro conviction.
+      </p>
+
+      <!-- L2 Hero Quote -->
       <p class="mx-auto max-w-2xl text-lg md:text-xl leading-relaxed text-slate-500 font-light">
-        "I treat investing like building a distributed system: build for fault tolerance, cut risk decisively when things break, and scale through automation."
+        &ldquo;Markets move through regimes. I read the transmission across currencies, rates, equities, and real assets &mdash; then size positions with the discipline of a distributed system: fault-tolerant by design, decisive in execution.&rdquo;
       </p>
 
       <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
         <a href="mailto:kuan@miyamacap.com" class="inline-flex items-center justify-center rounded-lg bg-tech-dark px-8 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 hover:-translate-y-0.5 shadow-lg shadow-slate-200">
           Get in Touch
         </a>
-        <a href="https://www.linkedin.com/in/swaywang" target="_blank" class="inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-8 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50">
+        <a href="https://www.linkedin.com/in/swaywang" target="_blank" rel="noopener" class="inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-8 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50">
           <svg class="w-4 h-4 mr-2 text-[#0077b5]" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
           LinkedIn
         </a>
@@ -85,103 +97,106 @@
     </div>
   </header>
 
-<section id="about" class="py-24 bg-slate-50">
-  <div class="mx-auto max-w-4xl px-6">
-    
-    <div class="mb-10 text-center md:text-left">
-      <h3 class="text-sm font-bold uppercase tracking-widest text-slate-400">My Philosophy</h3>
+  <!-- ============ ABOUT / PHILOSOPHY ============ -->
+  <section id="about" class="py-24 bg-slate-50">
+    <div class="mx-auto max-w-4xl px-6">
+
+      <div class="mb-10 text-center md:text-left">
+        <h3 class="text-sm font-bold uppercase tracking-widest text-slate-400">My Philosophy</h3>
+      </div>
+
+      <div class="border-l-4 border-slate-200 pl-8 md:pl-12 space-y-8 text-lg text-slate-600 leading-relaxed">
+
+        <!-- Para 1: Parallel Discipline (A4 — REWRITTEN) -->
+        <p>
+          Two parallel disciplines have run alongside each other: a decade of building fault-tolerant verification infrastructure as an engineer, and managing my own capital across US, Japan, and Taiwan markets since 2010. Both train the same instinct &mdash; design the system to survive being wrong, then optimize for the cases where you are right. The investing track has converged into my main focus.
+        </p>
+
+        <!-- Para 2 + 3: Fault Tolerance core (RETAINED v1) -->
+        <div class="rounded-lg bg-slate-50 p-6 -ml-4 border border-slate-100">
+          <p>
+            My philosophy is simple: <span class="text-tech-accent font-bold">Fault Tolerance.</span>
+          </p>
+          <p class="mt-2 text-base">
+            In engineering, you assume components will fail, so you build redundancy. In investing, I assume I will be wrong, so I build portfolios that can survive mistakes while capturing asymmetric upside.
+          </p>
+        </div>
+
+        <!-- Para 4: Cross-border setup (RETAINED v1, trimmed per Final Copy) -->
+        <p>
+          I am currently building a cross-border investment setup connecting the US, Taiwan, and Japan.
+        </p>
+      </div>
+
+      <!-- Core Focus Areas (A3 — 3 tags) -->
+      <div class="mt-20 pt-10 border-t border-slate-200">
+        <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-6">Core Focus Areas</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="px-5 py-2.5 rounded-full bg-white border border-blue-100 text-blue-700 text-sm font-medium shadow-sm transition hover:-translate-y-0.5">Global Macro</span>
+          <span class="px-5 py-2.5 rounded-full bg-white border border-indigo-100 text-indigo-700 text-sm font-medium shadow-sm transition hover:-translate-y-0.5">Cross-Asset Transmission</span>
+          <span class="px-5 py-2.5 rounded-full bg-white border border-amber-100 text-amber-700 text-sm font-medium shadow-sm transition hover:-translate-y-0.5">Fault-Tolerant Discipline</span>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="mb-16">
-      <p class="font-serif text-2xl md:text-3xl leading-relaxed text-tech-dark">
-        I spent 14 years debugging large-scale systems in Silicon Valley. Now, I apply that same <span class="text-tech-accent font-semibold">discipline</span> to capital allocation.
-      </p>
-    </div>
-
-<div class="border-l-4 border-slate-200 pl-8 md:pl-12 space-y-8 text-lg text-slate-600 leading-relaxed">
-  
-  <p>
-    Before starting <strong class="text-tech-dark font-semibold">Miyama Capital</strong>, I was a Senior Staff Engineer at Synopsys, building fault-tolerant systems and data pipelines. In parallel, I’ve been investing my own capital across US, Taiwan, and Japan markets for over 16 years—starting as a side project and gradually evolving into my main focus.
-  </p>
-
-  <div class="rounded-lg bg-slate-50 p-6 -ml-4 border border-slate-100">
-    <p>
-      My philosophy is simple: <span class="text-tech-accent font-bold">Fault Tolerance.</span>
-    </p>
-    <p class="mt-2 text-base">
-      In engineering, you assume components will fail, so you build redundancy. In investing, I assume I will be wrong, so I build portfolios that can survive mistakes while capturing asymmetric upside.
-    </p>
-  </div>
-
-  <p>
-    I am currently building a cross-border investment setup connecting the US, Taiwan, and Japan. I’m always happy to connect with fellow engineers, researchers, and investors who care about using <span class="font-medium text-tech-dark">data and AI</span> to make better decisions.
-  </p>
-</div>
-
-<div class="mt-20 pt-10 border-t border-slate-200">
-  <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-6">Core Focus Areas</h3>
-  <div class="flex flex-wrap gap-3">
-    <span class="px-5 py-2.5 rounded-full bg-white border border-blue-100 text-blue-700 text-sm font-medium shadow-sm transition hover:-translate-y-0.5">Global Macro</span>
-    <span class="px-5 py-2.5 rounded-full bg-white border border-indigo-100 text-indigo-700 text-sm font-medium shadow-sm transition hover:-translate-y-0.5">Fault Tolerance</span>
-    <span class="px-5 py-2.5 rounded-full bg-white border border-emerald-100 text-emerald-700 text-sm font-medium shadow-sm transition hover:-translate-y-0.5">Quant / AI</span>
-    <span class="px-5 py-2.5 rounded-full bg-white border border-amber-100 text-amber-700 text-sm font-medium shadow-sm transition hover:-translate-y-0.5">Real Estate</span>
-  </div>
-</div>
-  </div>
-</section>
-
+  <!-- ============ PROFESSIONAL JOURNEY ============ -->
   <section id="experience" class="py-24 bg-white">
     <div class="mx-auto max-w-4xl px-6">
       <h2 class="text-3xl font-bold text-tech-dark mb-12">Professional Journey</h2>
 
       <div class="relative space-y-12 border-l-2 border-slate-100 pl-8 ml-3">
-        
+
+        <!-- Entry 1: Founder & CIO (A2 — REWRITTEN bullets) -->
         <div class="relative">
           <span class="absolute -left-[41px] top-1.5 h-6 w-6 rounded-full border-4 border-white bg-tech-accent shadow-sm"></span>
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
             <h3 class="text-xl font-bold text-tech-dark">Founder & CIO</h3>
-            <span class="text-xs font-bold uppercase text-tech-accent bg-indigo-50 px-2 py-1 rounded">Nov 2025 – Present</span>
+            <span class="text-xs font-bold uppercase text-tech-accent bg-indigo-50 px-2 py-1 rounded">Oct 2025 &ndash; Present</span>
           </div>
-          <div class="text-sm font-medium text-slate-500 mb-4">Miyama Capital · San Francisco Bay Area</div>
+          <div class="text-sm font-medium text-slate-500 mb-4">Miyama Capital &middot; San Francisco Bay Area</div>
           <ul class="list-disc list-outside ml-4 space-y-2 text-sm text-slate-600 marker:text-slate-300">
-            <li>Manage a proprietary, multi-asset portfolio across US equities, Treasuries, and real estate.</li>
-            <li>Design fault-tolerant portfolio frameworks emphasizing liquidity and downside protection.</li>
-            <li>Build internal quant tools (NLP sentiment, risk models) using Python & AI.</li>
-            <li>Coordinate cross-border structuring across US, Taiwan, and Japan.</li>
+            <li>Read macro regimes and trace cross-asset transmission across currencies, rates, equities, and real assets to build asymmetric, conviction-sized positions.</li>
+            <li>Engineer portfolio survival under regime shifts and tail events through fault-tolerant portfolio frameworks, liquidity discipline, and decisive risk reduction.</li>
+            <li>Apply systems engineering discipline to research workflow &mdash; adversarial review, scenario stress-testing, and structured decision logs replacing intuition with process.</li>
+            <li>Operate research presence across US, Japan, and Taiwan &mdash; a structural choice for regime diversification, not a geographic accident.</li>
           </ul>
         </div>
 
+        <!-- Entry 2: Synopsys Sr. Staff (RETAINED v1) -->
         <div class="relative">
           <span class="absolute -left-[41px] top-1.5 h-6 w-6 rounded-full border-4 border-white bg-slate-300"></span>
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
             <h3 class="text-lg font-bold text-slate-700">Senior Staff Software Engineer</h3>
-            <span class="text-xs font-semibold text-slate-400">Dec 2017 – Oct 2025</span>
+            <span class="text-xs font-semibold text-slate-400">Dec 2017 &ndash; Oct 2025</span>
           </div>
-          <div class="text-sm font-medium text-slate-500 mb-4">Synopsys Inc · Sunnyvale, CA</div>
+          <div class="text-sm font-medium text-slate-500 mb-4">Synopsys Inc &middot; Sunnyvale, CA</div>
           <p class="text-sm text-slate-600 mb-3">
-            Designed scalable fault injection tooling and data pipelines (Python, Redis) to test software behavior under failure. This experience heavily influenced my "fault-tolerant" investing philosophy.
+            Designed scalable fault injection tooling and data pipelines (Python, Redis) to test software behavior under failure. This experience heavily influenced my &ldquo;fault-tolerant&rdquo; investing philosophy.
           </p>
         </div>
 
+        <!-- Entry 3: Synopsys Sr. (RETAINED v1) -->
         <div class="relative">
           <span class="absolute -left-[41px] top-1.5 h-6 w-6 rounded-full border-4 border-white bg-slate-300"></span>
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
             <h3 class="text-lg font-bold text-slate-700">Senior Software Engineer</h3>
-            <span class="text-xs font-semibold text-slate-400">Jul 2015 – Dec 2017</span>
+            <span class="text-xs font-semibold text-slate-400">Jul 2015 &ndash; Dec 2017</span>
           </div>
-          <div class="text-sm font-medium text-slate-500 mb-4">Synopsys Inc · Hsinchu, Taiwan</div>
+          <div class="text-sm font-medium text-slate-500 mb-4">Synopsys Inc &middot; Hsinchu, Taiwan</div>
           <p class="text-sm text-slate-600">
-            Developed and maintained a PDML (UPF) parser in C++, achieving ~5× performance improvement through massive codebase refactoring.
+            Developed and maintained a PDML (UPF) parser in C++, achieving ~5&times; performance improvement through massive codebase refactoring.
           </p>
         </div>
 
+        <!-- Entry 4: Pixart (RETAINED v1) -->
         <div class="relative">
           <span class="absolute -left-[41px] top-1.5 h-6 w-6 rounded-full border-4 border-white bg-slate-300"></span>
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
             <h3 class="text-lg font-bold text-slate-700">Senior Software Engineer</h3>
-            <span class="text-xs font-semibold text-slate-400">Sep 2011 – Jul 2015</span>
+            <span class="text-xs font-semibold text-slate-400">Sep 2011 &ndash; Jul 2015</span>
           </div>
-          <div class="text-sm font-medium text-slate-500 mb-4">Pixart Inc · Hsinchu, Taiwan</div>
+          <div class="text-sm font-medium text-slate-500 mb-4">Pixart Inc &middot; Hsinchu, Taiwan</div>
           <p class="text-sm text-slate-600">
             Built automation and verification tools for chip manufacturing using Python, C/C++ and C# for high-volume production testing.
           </p>
@@ -191,6 +206,7 @@
     </div>
   </section>
 
+  <!-- ============ ENGINEERING STACK + EDUCATION ============ -->
   <section class="py-20 bg-slate-50 border-t border-slate-200">
     <div class="mx-auto max-w-5xl px-6 text-center">
       <h2 class="text-2xl font-bold text-tech-dark mb-10">Engineering Stack</h2>
@@ -204,34 +220,85 @@
         <span class="px-4 py-2 bg-white rounded-lg shadow-sm text-sm font-medium text-slate-700 border border-slate-100">Redis</span>
         <span class="px-4 py-2 bg-white rounded-lg shadow-sm text-sm font-medium text-slate-700 border border-slate-100">Automated Testing</span>
       </div>
-      
+
       <div class="mt-16 pt-8 border-t border-slate-100 text-center">
-  <div class="inline-flex items-center gap-3 opacity-60 hover:opacity-100 transition duration-300">
-    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"/></svg>
-    
-    <div class="text-left">
-      <div class="text-sm font-semibold text-slate-600">National Tsing Hua University</div>
-      <div class="text-xs text-slate-400">M.S. in Computer Science</div>
+        <div class="inline-flex items-center gap-3 opacity-60 hover:opacity-100 transition duration-300">
+          <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"/></svg>
+          <div class="text-left">
+            <div class="text-sm font-semibold text-slate-600">National Tsing Hua University</div>
+            <div class="text-xs text-slate-400">M.S. in Computer Science</div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
   </section>
 
+  <!-- ============ WRITING & RESEARCH (A6 — NEW) ============ -->
+  <section id="writing" class="py-24 bg-white border-t border-slate-100">
+    <div class="mx-auto max-w-4xl px-6">
+      <h2 class="text-3xl font-bold text-tech-dark mb-12">Writing & Research</h2>
+
+      <div class="grid gap-6 md:grid-cols-3">
+
+        <a href="https://memos.miyamacap.com" target="_blank" rel="noopener" class="group block rounded-lg border border-slate-200 bg-white p-6 transition hover:border-tech-accent hover:-translate-y-0.5 shadow-sm">
+          <div class="text-xs font-bold uppercase tracking-widest text-tech-accent mb-2">Substack &middot; English</div>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">
+            Geopolitical macro memos tracing cross-asset transmission across global markets.
+          </p>
+          <span class="text-xs font-semibold text-slate-400 group-hover:text-tech-dark transition">memos.miyamacap.com &rarr;</span>
+        </a>
+
+        <a href="https://note.com/miyamacapitaljp" target="_blank" rel="noopener" class="group block rounded-lg border border-slate-200 bg-white p-6 transition hover:border-tech-accent hover:-translate-y-0.5 shadow-sm">
+          <div class="text-xs font-bold uppercase tracking-widest text-tech-accent mb-2">Note.com &middot; Japanese</div>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4" lang="ja">
+            日本機関投資家向けマクロ論考。
+          </p>
+          <span class="text-xs font-semibold text-slate-400 group-hover:text-tech-dark transition">note.com/miyamacapitaljp &rarr;</span>
+        </a>
+
+        <a href="https://vocus.cc/salon/miyama-capital" target="_blank" rel="noopener" class="group block rounded-lg border border-slate-200 bg-white p-6 transition hover:border-tech-accent hover:-translate-y-0.5 shadow-sm">
+          <div class="text-xs font-bold uppercase tracking-widest text-tech-accent mb-2">方格子 / Vocus &middot; 繁體中文</div>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4" lang="zh-Hant">
+            配置者視角的全球宏觀與跨境思考。
+          </p>
+          <span class="text-xs font-semibold text-slate-400 group-hover:text-tech-dark transition">vocus.cc/salon/miyama-capital &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VELVET ROPE + CONTACT (A5 — NEW) ============ -->
+  <section id="contact" class="py-24 bg-slate-50 border-t border-slate-200">
+    <div class="mx-auto max-w-3xl px-6 text-center">
+
+      <!-- Velvet Rope (filtering layer above contact) -->
+      <p class="text-base md:text-lg leading-relaxed text-slate-600 mb-10">
+        Open to dialogue with Family Office CIOs, portfolio managers, analysts, and engineers or researchers working on adjacent problems in cross-asset macro and systematic frameworks. Not the right fit for recruiters, service vendors, or retail trading inquiries.
+      </p>
+
+      <a href="mailto:kuan@miyamacap.com" class="inline-flex items-center justify-center rounded-lg bg-tech-dark px-8 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 hover:-translate-y-0.5 shadow-lg shadow-slate-200">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
   <footer class="bg-white py-12 text-center border-t border-slate-100">
     <div class="flex justify-center gap-6 mb-6">
-       <a href="mailto:kuan@miyamacap.com" class="text-slate-400 hover:text-tech-accent transition">
-         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-       </a>
-       <a href="https://www.linkedin.com/in/swaywang" target="_blank" class="text-slate-400 hover:text-tech-accent transition">
-         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-       </a>
+      <a href="mailto:kuan@miyamacap.com" class="text-slate-400 hover:text-tech-accent transition" aria-label="Email">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/swaywang" target="_blank" rel="noopener" class="text-slate-400 hover:text-tech-accent transition" aria-label="LinkedIn">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+      </a>
     </div>
     <p class="text-xs text-slate-400">
-  © <span id="year"></span> Kuan Hsun Wang. All Rights Reserved.
-</p>
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+      &copy; <span id="year"></span> Kuan Hsun Wang. All Rights Reserved.
+    </p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </footer>
 
 </body>
